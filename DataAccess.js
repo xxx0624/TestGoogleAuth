@@ -16,7 +16,8 @@ var DataAccess = /** @class */ (function () {
         this.mongooseInstance = Mongoose.connect(this.DB_CONNECTION_STRING);
         return this.mongooseInstance;
     };
-    DataAccess.DB_CONNECTION_STRING = 'mongodb://dbAdmin:test@localhost:3000/toDoSample?authSource=admin';
+    //static DB_CONNECTION_STRING:string = 'mongodb://dbAdmin:test@localhost:3000/toDoSample?authSource=admin';
+    DataAccess.DB_CONNECTION_STRING = 'mongodb+srv://dbAdmin:test@cluster0-hmc1e.azure.mongodb.net/todoclasssample?retryWrites=true&w=majority';
     return DataAccess;
 }());
 exports.DataAccess = DataAccess;

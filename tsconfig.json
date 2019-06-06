@@ -1,4 +1,12 @@
 {
+  "name": "foodhunter-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "AppServer.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node AppServer.js"
+  },
   "compilerOptions": {
     "target": "es6",
     "module": "commonjs"
