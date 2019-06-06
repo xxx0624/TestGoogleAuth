@@ -1,7 +1,7 @@
 {
-  "name": "expressmongoserver",
+  "name": "foodhunter",
   "version": "1.0.0",
-  "description": "This directory contains two express servers: * AppServer.js - Combined Node/Express web server w/ Mongo Access * Server.js - Encapsulated Node/Express web server w/ Mongo Access",
+  "description": "",
   "main": "AppServer.js",
   "dependencies": {
     "@types/express": "^4.11.1",
